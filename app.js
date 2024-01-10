@@ -21,7 +21,6 @@ let createNewTaskElement = function(taskString){
     let listItem = document.createElement("li");
     listItem.className = 'todo-list__item';
 
-    //input (checkbox)
     let checkBox = document.createElement("input");//checkbx
     //label
     let label = document.createElement("label");//label
